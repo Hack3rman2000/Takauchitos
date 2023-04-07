@@ -3,23 +3,24 @@
     margin: 0;
     font-family: 'Rubik',sans-serif;
 }
-html{
-    height: fit-content;
-}
+
 nav{
     
     background-color: black;
+    position: fixed;
     width: 100%;
     height: 80px;
 }
 nav a{
+    height: 100%;
     display: block;
     float: left;
 }
 
 nav a img{
-    width: 60px;
-    height: 60px;
+    height: 100%;
+    width: 100%;
+
 }
 nav ul{
 
@@ -81,24 +82,413 @@ li a:hover{
     width: 100%;
     height: 800px;
 }
-
-.ta{
+.acercainfo{
+    width: 50%;
+    float: left;
+}
+.ta p{
+    font-weight: bolder;
+    color: white;
+    padding: 50px;
     background-color: #47ea4f;
     width: fit-content;
+    float: left;
+
+    
 }
 
 .ta .tria{
-    content: "";
+    float: left;
     width: 0;
     height: 0;
-    border-style: solid;
-    border-width: 130px 60px 0 0;
-    border-color: #47ea4e transparent transparent transparent;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translateX(100%);
-    
+    border-right: 70px solid transparent;
+    border-top: 70px solid #47ea4f;
+    border-left: 50px solid #47ea4f;
+    border-bottom: 50px solid transparent;
+
+
     
 }
+.sub_a{
+    font-weight: lighter;
+    color: rgb(164, 164, 164);
+    font-size: 18px;
+    clear: both;
+    padding: 50px;
+}
+
+.sub_a2{
+    font-size: 42px;
+    padding: 0 50px 50px 50px;
+}
+.info{
+    line-height: 32px;
+    color: rgb(164, 164, 164);
+    font-size: 18px;
+    padding: 0 50px 50px 50px;
+}
+
+.imagencerca{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.imagencerca img{
+    margin: 10% 10% 10% 10%;
+    width: 80%;
+    height: 80%;
+}
+.equipo{
+    background-color: black;
+}
+
+.d1{
+
+    clear: both;
+    height: 800px;
+}
+.d1 .imge{
+    padding: 7% 0 0 8%;
+    width: 50%;
+    height: 100%;
+
+
+
+
+}
+.imge img{
+    width: 90%;
+    height: 80%;
+}
+.infoe{
+    padding: 5% 6% 5% 6%;
+    bottom: 95%;
+    left: 40%;
+
+    position: relative;
+    
+    
+
+
+
+
+
+    background-color: white;
+
+    width: 40%;
+    height: 53%;
+}
+
+.cat{
+    color: rgb(164, 164, 164);
+}
+.p1{
+    margin-top: 2%;
+    font-size: 42px;
+    
+
+}
+
+.ip1{
+    padding: 10% 10% 0 0;
+    font-size: 18px;
+}
+
+.redes{
+    bottom: 102%;
+    left: 35%;
+    width: 20%;
+    background-color: #47ea4f;
+    position: relative;
+    padding: 2%;
+}
+
+.lae{
+    margin-left: 10%;
+    height: 30px;
+
+    width: 12%;
+
+}
+.d2{
+    height: 800px;
+
+}
+.imge2{
+    padding: 7% 0 0 47%;
+    width: 50%;
+    height: 100%;
+
+
+}
+.imge2 img{
+    width: 90%;
+    height: 80%;
+}
+
+.infoe2{
+    padding: 5% 6% 5% 6%;
+    bottom: 95%;
+    left: 8%;
+
+    position: relative;
+    
+    
+
+
+
+
+
+    background-color: white;
+
+    width: 40%;
+    height: 53%;
+}
+.redes2{
+    bottom: 102%;
+    left: 40%;
+    width: 20%;
+    background-color: #47ea4f;
+    position: relative;
+    padding: 2%;
+}
+
+
+.habilidades{
+    height: 800px;
+}
+
+.infoha{
+    display: flex;
+    align-items: center;
+
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+.barras{
+    width: 100%;
+}
+.habilidad{
+    display: flex;
+    justify-content: center;
+}
+.porcentaje{
+    padding: 5%;
+    display: inline-block;
+    color: rgb(164, 164, 164);
+
+
+
+    font-size: 42px;
+    font-weight: lighter;
+
+}
+.dp{
+    padding-top: 6%;
+
+    display: inline-block;
+    width: 70%;
+
+
+
+}
+.barrap{
+    width: 90%;
+    height: 10px;
+    border-top: solid 2px rgb(164, 164, 164);
+}
+
+.progreso1{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}
+.progreso2{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+.progreso3{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+}
+.progreso4{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+
+.contacto{
+    height: 800px;
+    background-color: black;
+}
+
+
+.contacto{
+    height: 800px;
+}
+.sub_ac2{
+    color: white;
+    font-size: 42px;
+    padding: 0 50px 50px 50px;
+}
+
+.formc{
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+form{
+    width: 100%;
+}
+
+
+.entrada{
+    margin-bottom: 20px;
+    padding-left: 2%;
+    color: white;
+    font-size: 16px;
+
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 90%;
+    height: 40px;
+
+}
+
+.entrada::placeholder,.areat::placeholder{
+    color: white;
+}
+
+.areat{
+    padding-left: 2%;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    resize: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+
+form a{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+
+    
+    text-decoration: none;
+    background-color: #47ea4f;   
+
+    width: 83%;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    margin-top: 50px;
+    border-radius: 60px;
+}
+
+.redes3{
+
+
+    width: 40%;
+
+
+    padding: 2% 2% 2% 3%;
+}
+
+.lae2{
+    margin-left: 10%;
+    height: 30px;
+
+    width: 12%;
+
+
+}
+
+.lae2:hover{
+
+    filter: invert(45%) sepia(81%) saturate(300%) hue-rotate(60deg) brightness(100%) contrast(190%);
+    
+}
+footer{
+    height: 600px;
+    text-align: center;
+    
+}
+
+.logof img{
+    width: 18%;
+    height: 45%;
+}
+.correo{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.correo:hover{
+    color: rgb(164, 164, 164);
+}
+
+.redes4{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+
+
+
+}
+.redes4 a{
+
+    padding: 2%;
+}
+
+.lae3{
+    filter: brightness(0);
+
+    height: 30px;
+
+
+    width: 100%;
+    
+
+}
+
+.lae3:hover{
+    filter: invert(43%) sepia(2%) saturate(0%) hue-rotate(332deg) brightness(92%) contrast(81%);
+
+}
+
+footer p{
+    margin-top: 3%;
+
+}
+
+
+
+
+
+
+
+
 
