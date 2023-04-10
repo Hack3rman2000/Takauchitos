@@ -14,13 +14,18 @@
 <body>
     <nav class="barra">
         <a href=""><img src="img/logo.png" alt=""></a>
+        
+        <input type="checkbox" id="menu-checkbox">
         <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Sobre nosostros</a></li>
-            <li><a href="">Equipo</a></li>
-            <li><a href="">Habilidades</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="#"  onclick="document.getElementById('menu-checkbox').checked = false;">Inicio</a></li>
+            <li><a href="#contenedor-sobre-nosotros" onclick="document.getElementById('menu-checkbox').checked = false;">Sobre nosotros</a></li>
+            <li><a href="#contenedor-equipo" onclick="document.getElementById('menu-checkbox').checked = false;">Equipo</a></li>
+            <li><a href="#contenedor-habilidades" onclick="document.getElementById('menu-checkbox').checked = false;">Habilidades</a></li>
+            <li><a href="#contenedor-contacto" onclick="document.getElementById('menu-checkbox').checked = false;">Contacto</a></li>
         </ul>
+        <label for="menu-checkbox">
+            <img src="img/boton-menu.png" alt="">
+        </label>
     </nav>
 
     <header class="encabezado">
@@ -36,7 +41,7 @@
 
     </header>
 
-    <div class="acerca">
+    <div class="acerca" id="contenedor-sobre-nosotros">
         
         <div class="acercainfo">
             <div class="ta">
@@ -62,7 +67,7 @@
     </div>
 
 
-    <div class="equipo">
+    <div class="equipo" id="contenedor-equipo">
         <div class="ta">
             <p>EQUIPO</p>
             <div class="tria">
@@ -146,7 +151,7 @@
  
     </div>
 
-    <div class="habilidades">
+    <div class="habilidades" id="contenedor-habilidades">
         <div class="acercainfo">
             <div class="ta">
                 <p>HABILIDADES</p>
@@ -212,11 +217,11 @@
     </div>
 
     
-    <div class="contacto">
+    <div class="contacto" id="contenedor-contacto">
 
         <div class="acercainfo">
             <div class="ta">
-                <p>HABILIDADES</p>
+                <p>CONTACTO</p>
                 <div class="tria">
                     
 
@@ -225,10 +230,10 @@
             
             </div>
 
-        <h4 class="sub_a">DESTREZA TÉCNICA</h4>
-        <h4 class="sub_ac2">Consulta nuestras habilidades</h4>
+        <h4 class="sub_a">CONTACTANOS</h4>
+        <h4 class="sub_ac2">Empezemos a aprender</h4>
 
-        <p class="info">Como equipo de CTF, trabajamos juntos para mejorar nuestras habilidades de hacking y seguridad informática a través de desafíos y competiciones. Nos enfocamos en aprender de nuestros errores y en compartir nuestros conocimientos para ayudarnos mutuamente a crecer como hackers éticos y a resolver problemas de seguridad informática de manera creativa y efectiva.</p>
+        <p class="info">¡Gracias por considerar contactarnos! Si tienes alguna pregunta, sugerencia, o simplemente quieres saludar, por favor no dudes en escribirnos. Estamos siempre dispuestos a recibir mensajes de nuestros seguidores y amigos de la comunidad CTF. Puedes contactarnos a través del siguiente formulario o directamente por correo electrónico. ¡Esperamos saber de ti pronto!</p>
         <div class="redes3">
             <a href=""><img class="lae2" src="img/flogo.png" alt=""></a>
             <a href=""><img class="lae2" src="img/twlogo.png" alt=""></a>

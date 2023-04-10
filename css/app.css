@@ -45,6 +45,16 @@ li a{
 li a:hover{
     color: #47ea4f;
 }
+
+label{
+    visibility: hidden;
+}
+
+#menu-checkbox{
+    visibility: hidden;
+
+}
+
 .encabezado{
     background-size: cover;
     background-image: url("../img/img1.jpeg");
@@ -190,7 +200,7 @@ li a:hover{
 }
 
 .ip1{
-    padding: 10% 10% 0 0;
+    padding: 10% 0 0 0;
     font-size: 18px;
 }
 
@@ -484,6 +494,453 @@ footer p{
 
 }
 
+@media screen and (max-width: 1280px){
+    .sub_a{
+        font-weight: lighter;
+        color: rgb(164, 164, 164);
+        font-size: 16px;
+        clear: both;
+        padding: 50px;
+    }
+    
+    .sub_a2{
+        font-size: 34px;
+        padding: 0 50px 50px 50px;
+    
+    }
+    .sub_ac2{
+        color: white;
+        font-size: 36px;
+        padding: 0 50px 50px 50px;
+    }
+    .info{
+        line-height: 26px;
+        color: rgb(164, 164, 164);
+        font-size: 17px;
+        padding: 0 50px 50px 50px;
+    }
+    .ip1{
+        font-size: 16px;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 1020px){
+
+    nav ul{
+        transition: all .8s;
+        position: fixed;
+        right: -100%;
+        top: 80px;
+        flex-direction: column;
+        background-color: black;
+        width: 300px;
+        margin: 0;
+        max-width: 100%;
+        
+        
+    }
+
+    nav ul li{
+        padding: 5%;
+        display: block;
+        margin: 0;
+
+    }
+
+    label{
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50px;
+        height: 100%;
+        float: right;
+    }
+
+
+    label img{
+        width: 80%;
+        filter: invert(100%) sepia(6%) saturate(1153%) hue-rotate(309deg) brightness(113%) contrast(100%);
+        height: 70%;
+    }
+
+    #menu-checkbox:checked + ul{
+        transition: all .8s;
+        right: 0;
+
+
+    }
+    .encabezado{
+        align-items: center;
+    }
+
+    .titulo{
+        font-size: 42px;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .encabezado a{
+        margin-left: 0;
+
+    }
+
+    .acerca{
+        height: 1200px;
+    }
+
+    .acercainfo{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    .imagencerca{
+        float: none;
+        width: 100%;
+        height: 50%;
+    }
+    .imagencerca img{
+        margin-top: 4%;
+    }
+
+    .d1{
+        padding: 10% 0 10%;
+
+        height: 1300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .d1 .imge{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .imge img{
+        
+        width: 68%;
+        height: 100%;
+    }
+
+    .infoe{
+        position: static;
+        width: 62%;
+        margin-left: 13%;
+    }
+
+    .redes{
+        margin-left: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        position: static;
+
+    }
+
+    .redes a{
+        margin-left: 3%;
+    }
+
+    .lae{
+
+        width: 95%;
+        height: 25px;
+    }
+
+    .d2{
+        padding: 10% 0 10%;
+        height: 1300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+
+    .infoe2{
+        position: static;
+        width: 62%;
+        margin-left: 13%;
+    }
+    .redes2{
+        position: static;
+        margin-left: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .imge2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+    .imge2 img{
+        
+        width: 68%;
+        height: 100%;
+    }
+
+    .habilidades{
+        height: 1200px;
+    }
+
+    .infoha{
+        width: 100%;
+        height: 50%;
+    }
+    .contacto{
+        height: 1200px;
+    }
+
+
+    .formc{
+        padding-left:7% ;
+        height: 45%;
+        width: 93%;
+    }
+
+    .redes3{
+        margin-left: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .redes3 a{
+        margin-left: 3%;
+    }
+
+
+    .lae2{
+        width: 95%;
+        height: 25px;
+
+    }
+    .logof img{
+        width: 30%;
+
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .titulo{
+        font-size: 34px;
+
+    }
+    .acerca{
+        height: 1400px;
+
+    }
+    .imagencerca img{
+        width: 90%;
+        height: 70%;
+        margin: 5%;
+
+    }
+    .d1 .imge{
+        height: 70%;
+    }
+    .imge img{
+
+        width: 90%;
+
+    }
+
+    .infoe{
+        margin-left: 5%;
+        width: 78%;
+    }
+    .d2 .imge2{
+        height: 70%;
+    }
+    .imge2 img{
+
+        width: 90%;
+    }
+
+    .redes{
+        margin-left: 5%;
+        width: 86%;
+
+    }
+    .infoe2{
+        margin-left: 5%;
+        width: 78%;
+    }
+    .redes2{
+        margin-left: 5%;
+        width: 86%;
+
+    }
+
+    .habilidades{
+        height: 1350px;
+
+    }
+
+    .infoha{
+        height: 45%;
+    }
+
+    .contacto{
+        height: 1350px;
+
+    }
+
+    .formc{
+        padding-left:7% ;
+        height: 45%;
+        width: 93%;
+    }
+
+    footer{
+        height: 350px;
+    }
+
+    .logof img{
+        width: 30%;
+        height: 50%;
+
+    }
+
+    .correo{
+        font-size: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 430px) {
+
+    .titulo{
+        font-size: 22px;
+    }
+    .ta p{
+        font-weight: bolder;
+        color: white;
+        padding: 25px;
+        background-color: #47ea4f;
+        width: fit-content;
+        float: left;
+    
+        
+    }
+    
+    .ta .tria{
+        float: left;
+        width: 0;
+        height: 0;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #47ea4f;
+        border-left: 20px solid #47ea4f;
+        border-bottom: 20px solid transparent;
+    
+    
+        
+    }
+    .acerca{
+        height: 1300px;
+    }
+
+    .sub_a2{
+        padding: 0 10px 50px 10px;
+    }
+
+    .sub_ac2{
+        padding: 0 10px 50px 10px;
+
+    }
+
+    .info{
+        padding: 0 10px 50px 10px;
+    }
+    .imagencerca{
+        height: 40%;
+    }
+    .imagencerca img{
+        width: 95%;
+        height: 80%;
+        margin: 2%;
+
+    }
+
+    .d1 .imge {
+        height: 45%;
+    }
+    .d2 .imge2 {
+        height: 45%;
+    }
+    .infoe {
+        height: 43%;
+    }
+    .infoe2 {
+        height:43% ;
+    }
+
+
+    .habilidades{
+        height: 1200px;
+    }
+
+    .infoha{
+        height: 30%;
+    }
+    .formc{
+        height: 40%;
+    }
+
+    form a{
+        padding: 20px 20px 20px 10px;
+    }
+
+    .logof img{
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .correo{
+        font-size: 18px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 330px) {
+    .acerca{
+        height: 1500px;
+    }
+
+    .infoe {
+        height: 53%;
+    }
+
+    .infoe2 {
+        height: 53%;
+    }
+
+
+    
+}
 
 
 
